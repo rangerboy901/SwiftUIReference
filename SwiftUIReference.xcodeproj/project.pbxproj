@@ -15,6 +15,7 @@
 		4A2EF8C528D2241000A0EFC9 /* SwiftUIReferenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF8C428D2241000A0EFC9 /* SwiftUIReferenceUITests.swift */; };
 		4A2EF8C728D2241000A0EFC9 /* SwiftUIReferenceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF8C628D2241000A0EFC9 /* SwiftUIReferenceUITestsLaunchTests.swift */; };
 		4A2EF8D528D2247700A0EFC9 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF8D428D2247700A0EFC9 /* TextView.swift */; };
+		4A2EF8D828D22A6300A0EFC9 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EF8D728D22A6300A0EFC9 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		4A2EF8C428D2241000A0EFC9 /* SwiftUIReferenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReferenceUITests.swift; sourceTree = "<group>"; };
 		4A2EF8C628D2241000A0EFC9 /* SwiftUIReferenceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIReferenceUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4A2EF8D428D2247700A0EFC9 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		4A2EF8D728D22A6300A0EFC9 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		4A2EF8A828D2240F00A0EFC9 /* SwiftUIReference */ = {
 			isa = PBXGroup;
 			children = (
+				4A2EF8D628D22A5300A0EFC9 /* Shapes */,
 				4A2EF8D328D2246000A0EFC9 /* TextExamples */,
 				4A2EF8A928D2240F00A0EFC9 /* SwiftUIReferenceApp.swift */,
 				4A2EF8AB28D2240F00A0EFC9 /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				4A2EF8D428D2247700A0EFC9 /* TextView.swift */,
 			);
 			path = TextExamples;
+			sourceTree = "<group>";
+		};
+		4A2EF8D628D22A5300A0EFC9 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				4A2EF8D728D22A6300A0EFC9 /* ShapesView.swift */,
+			);
+			path = Shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			files = (
 				4A2EF8D528D2247700A0EFC9 /* TextView.swift in Sources */,
 				4A2EF8AC28D2240F00A0EFC9 /* ContentView.swift in Sources */,
+				4A2EF8D828D22A6300A0EFC9 /* ShapesView.swift in Sources */,
 				4A2EF8AA28D2240F00A0EFC9 /* SwiftUIReferenceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
